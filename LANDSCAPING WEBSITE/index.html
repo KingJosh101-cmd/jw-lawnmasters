@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JW LawnMasters | Market Leaders in Landscaping & Gardening</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            font-size: 2rem;
+            font-weight: bold;
+            overflow: hidden;
+            background: url('images/background.jpg') no-repeat center center/cover;
+        }
+        .hero video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 180px;
+            z-index: 3;
+        }
+        .cta {
+            background-color: #004b23;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .cta:hover {
+            background-color: #1b5e20;
+        }
+        .services {
+            text-align: center;
+            padding: 50px;
+            background: white;
+        }
+        .service-box {
+            display: inline-block;
+            width: 30%;
+            padding: 20px;
+            margin: 10px;
+            background: #cce3de;
+            border-radius: 10px;
+        }
+        .service-box a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .service-box a:hover {
+            color: #004b23;
+        }
+    </style>
+</head>
+<body>
+    <img src="images/logo.jpg" alt="JW LawnMasters Logo" class="logo">
+    <div class="hero">
+        <video autoplay loop muted>
+            <source src="videos/landscaping.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-content">
+            <h1>JW LawnMasters</h1>
+            <h3>Market leaders in providing all things landscaping/gardening</h3>
+            <a href="booking.html" class="cta">Book a Gardener Now</a>
+        </div>
+    </div>
+    
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service-box"><a href="landscaping.html">Landscaping</a></div>
+        <div class="service-box"><a href="hedge-trimming.html">Hedge Trimming</a></div>
+        <div class="service-box"><a href="garden-cleanup.html">Garden Cleanup</a></div>
+        <div class="service-box"><a href="tree-pruning.html">Tree Pruning</a></div>
+        <div class="service-box"><a href="mulching.html">Mulching</a></div>
+        <div class="service-box"><a href="irrigation.html">Irrigation Installation</a></div>
+        <div class="service-box"><a href="patio-design.html">Patio & Pathway Design</a></div>
+        <div class="service-box"><a href="tree-planting.html">Tree Planting</a></div>
+        <div class="service-box"><a href="water-features.html">Water Features</a></div>
+    </section>
+    
+    <footer class="footer">
+        <p>© 2025 JW LawnMasters. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
